@@ -19,3 +19,7 @@ wget \
 wget \
   -O "/Users/colinbarcelo/Desktop/microbiomemeeting/qiime-2-moving-pictures-tutorial/data/gg-13-8-99-515-806-nb-classifier.qza" \
   "https://data.qiime2.org/2024.2/common/gg-13-8-99-515-806-nb-classifier.qza"
+
+# imports data file
+  colinbarcelo@Colins-MacBook-Pro qiime-2-moving-pictures-tutorial % qiime tools import --type EMPSingleEndSequences --input-path data/sequences --output-path emp-single-end-sequences.qz
+
